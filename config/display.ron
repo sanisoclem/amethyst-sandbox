@@ -1,0 +1,14 @@
+/*!
+    @import /amethyst_window/src/config.rs#DisplayConfig
+    DisplayConfig
+*/
+(
+  title: "Amethyst Sandbox",
+  dimensions: Some((1024, 768)),
+  max_dimensions: None,
+  min_dimensions: Some((1024, 768)),
+//  fullscreen: Some(MonitorIdent(0, "default")),
+  multisampling: 8,
+  visibility: true,
+  vsync: false,
+)
